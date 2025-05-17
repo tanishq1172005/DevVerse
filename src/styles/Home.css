@@ -77,7 +77,7 @@ body{
     border: 1px solid #00f7ff;
     background-color: #000000;
     color: white;
-    width:200px;
+    width:1000px;
 }
 
 .new-journal textarea{
@@ -92,8 +92,7 @@ body{
     border: 2.5px solid #00f7ff;
     background-color: #000000;
     color: white;
-    width:800px;
-    max-width: 1000px;
+    width:1300px;
 }
 
 .new-journal input:hover{
