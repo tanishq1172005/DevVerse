@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ✨ About Devverse
 Devverse is a modern, all-in-one platform designed to empower developers, learners, and tech enthusiasts by providing seamless access to tools, guides, and AI-driven assistance — all in one intuitive space.
 
@@ -34,3 +35,6 @@ Gamified learning paths with rewards
 
 ❤️ Join the Devverse
 We're just getting started — and we'd love for you to be part of the journey. Explore, learn, and create your universe of code — only on Devverse.
+=======
+# DevVerse
+>>>>>>> 06a94162876b2ed6a5b4d64001790f8927c58a09
