@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #070b10;
+}
+
+.dashboard-container{
+    padding:2rem;
+    color:#f1f1f1;
+    background-color: #070b10;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header h1{
+    font-size:2.5rem;
+    color:#00f7ff;
+    font-weight: 500;
+}
+
+.dashboard-header p{
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+.quick-actions{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.button-primary{
+    background-color: #000000;
+    color: white;
+    border: 1px solid rgb(0, 38, 192);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-secondary{
+    background-color: transparent;
+    color: #00f7ff;
+    border:1px solid #00f7ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete-button{
+    background-color: #121212;
+    cursor:pointer;
+    border: 0px;
+    font-size: 1.25rem;
+}
+
+.new-journal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.new-journal h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #b0b0b0;
+}
+
+.new-journal input{
+    align-self: center;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 5px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #00f7ff;
+    background-color: #000000;
+    color: white;
+    width:200px;
+}
+
+.new-journal textarea{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-self: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    border: 2.5px solid #00f7ff;
+    background-color: #000000;
+    color: white;
+    width:800px;
+    max-width: 1000px;
+}
+
+.new-journal input:hover{
+    border:1px solid #006f73;
+}
+
+.new-journal textarea:hover{
+    border:2.5px solid #006f73;
+}
+
+.new-journal button{
+    width: 100px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #000000;
+    border: 1px solid #00f7ff;
+    cursor: pointer;
+}
+
+.new-journal button:hover{
+    border: 1px solid #006f73
+}
+
+.recent-entries h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.entry-card{
+    background: #121212;
+    border: 1px solid #1e1e1e;
+    border-radius: 15px;
+    padding:1rem;
+    margin: 1rem 0;
+}
+
+.entry-card h3{
+    margin-bottom: 0.5rem;
+    color: #00f7ff;
+}
+
+.progress-stats{
+    margin-top: 3rem;
+}
+
+.progress-stats h2{
+    font-size: 2rem;
+}
+
+.stats-grid{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 1rem;
+}
+
+.stat-card{
+    flex:1;
+    background: #121212;
+    border:1px solid #1e1e1e;
+    border-radius: 10px;
+    padding: 1.2rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.stat-card h3{
+    font-size: 2rem;
+    color:#00f7ff;
+    text-align: center;
+}
+
